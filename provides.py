@@ -1,8 +1,8 @@
 import json
 
-from charmhelpers.core.reactive import hook
-from charmhelpers.core.reactive import RelationBase
-from charmhelpers.core.reactive import scopes
+from charms.reactive import hook
+from charms.reactive import RelationBase
+from charms.reactive import scopes
 
 
 class NeutronPluginProvides(RelationBase):
