@@ -8,8 +8,6 @@ from charms.reactive import scopes
 class NeutronPluginProvides(RelationBase):
     scope = scopes.GLOBAL
 
-    auto_accessors = ['host']
-
     @hook('{provides:neutron-plugin}-relation-{joined,changed}')
     def changed(self):
         self.set_state('{relation_name}.connected')
