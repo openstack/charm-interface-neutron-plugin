@@ -1,2 +1,5 @@
+charms.reactive
 flake8>=2.2.4,<=2.4.1
+mock
 os-testr>=0.4.1
+git+https://github.com/openstack/charms.openstack.git#egg=charms.openstack

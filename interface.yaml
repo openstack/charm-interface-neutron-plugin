@@ -1,3 +1,11 @@
 name: neutron-plugin
 summary: Interface for intergrating Neutron SDN's with the nova-compute charm
-maintainer: James Page <james.page@ubuntu.com>
+maintainer: OpenStack Charmers <openstack-discuss@lists.openstack.org>
+repo: https://opendev.org/openstack/charm-interface-neutron-plugin.git
+ignore:
+  - 'unit_tests'
+  - '.stestr.conf'
+  - 'test-requirements.txt'
+  - 'tox.ini'
+  - '.gitignore'
+  - '.zuul.yaml'
