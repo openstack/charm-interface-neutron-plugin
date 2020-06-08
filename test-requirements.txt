@@ -1,5 +1,4 @@
 charms.reactive
 flake8>=2.2.4
-mock
 stestr>=2.2.0
 git+https://github.com/openstack/charms.openstack.git#egg=charms.openstack
